@@ -2,7 +2,7 @@
 
 An n8n workflow that reads customer complaints, works out whether a human needs to look at them, splits multi-issue complaints, and routes each one to the right department.
 
-![Full workflow canvas](assets/workflow-overview.png)
+![Full workflow canvas](Full workflow canvas.png)
 
 ## How it works
 
