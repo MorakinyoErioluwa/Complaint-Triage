@@ -2,13 +2,13 @@
 
 An n8n workflow that reads customer complaints, works out whether a human needs to look at them, splits multi-issue complaints, and routes each one to the right department.
 
-![Full workflow canvas](Full workflow canvas.png)
+![Full workflow canvas](full-workflow-canvas.png)
 
 ## How it works
 
 1. A customer fills in the complaint form.
 
-![Complaint form](assets/complaint-form.png)
+![Complaint form](complaint-form.png)
 
 2. An AI agent (structured output parser, main model, fallback model if the main one fails) classifies the complaint.
 
