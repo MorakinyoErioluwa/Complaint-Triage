@@ -15,7 +15,6 @@ When every complaint lands in one place, someone has to read each one, work out 
 5. Both paths merge, and one Switch routes each item to its department: billing, technical, or sales.
 
 ![Complaint form](complaint-form.png)
-![AI output](ai-output.png)
 ![Needs review alert](needs-review.png)
 
 ## Design decisions
@@ -26,14 +25,13 @@ When every complaint lands in one place, someone has to read each one, work out 
 - **Structured output.** A parser forces the AI to return the same fields every time, so the IF and Switch nodes can rely on them.
 
 ## Tech stack
-n8n, [model name], [fallback model name], [notification tool].
+n8n, OpenRouter, Google Gemini, Gmail.
 
 ## Screenshots
-![Split path](split.png)
-![Successful executions](executions.png)
+![Successful executions](executionss.png)
 
 ## Setup
 1. Import `workflow.json` into n8n.
-2. Connect your own AI model and [notification tool] credentials.
+2. Connect your own AI model and Gmail credentials.
 3. Replace the placeholder reviewer email with your own.
 4. Activate the workflow, submit a test complaint through the form, and check that it reaches the right department.
